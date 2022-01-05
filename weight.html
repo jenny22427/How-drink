@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/weight.css">
+    <title>HOW DRINK好喝</title>
+</head>
+
+<body>
+    <div class="div">
+        <ul class="box">
+            <li></li> 
+            <li>0</li> 
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+            <li>6</li>
+            <li>7</li>
+            <li>8</li>
+            <li>9</li>
+        </ul>
+     
+    </div>
+    <div class="div2">
+        <ul class="box2">
+            <li></li>
+            <li>0</li> 
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+            <li>6</li>
+            <li>7</li>
+            <li>8</li>
+            <li>9</li>
+            <li></li> 
+        </ul>
+    </div>
+     <script>
+        // 獲取ul
+        document.querySelector('ul').addEventListener('scroll', ajacs(1000))
+        // 防抖訂時器
+        function ajacs(times) {
+            var time = null
+            return function () {
+                if (time !== null) {
+                    clearTimeout(time);
+                }
+                /*獲取滾動條高度*/
+                let scrollTop = this.scrollTop
+                time = setTimeout(() => {
+                 /* 事件結束開始執行最終方法*/
+                    return ajas(scrollTop)
+                }, times);
+            }
+        }
+        // 最終輸出位子
+        function ajas(scrollTop) {
+            //讀取滾動條位子
+            /*60是每一塊的高度，前面兩個是空的從0開始算起，需要＋1才能符合當前位置*/
+            let list = scrollTop / 60 + 1
+            console.log('選中第' + list + '個元素');
+        }
+
+    </script>
+
+<body>
+    <div class="return">
+        <a href="./gender.html">
+            <img src="./img/返回 黑.svg" alt="">
+        </a>
+    </div>
+    <div class="text">
+        <img src="./img/字  體重.svg" alt="">
+    </div>
+
+    <form action="#">
+        <input type="button" name="確認" value="確認" onclick="location.href='./Frame01.html'">
+    </form>
+</body>
+
+</html>

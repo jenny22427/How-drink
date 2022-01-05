@@ -1,0 +1,100 @@
+.return{
+    position: absolute;
+    left: 5.57%;
+    right: 91.31%;
+    top: 3.59%;
+    bottom: 92.31%;
+}
+
+.book{
+    position: absolute;
+    text-align: center;
+    left: 35%;
+    top: 4%;    
+} 
+
+.collect{
+    position: absolute;
+    text-align: center;
+    left: 25%;
+    top: 10%;
+}
+
+.box{
+    position: absolute;
+    text-align: center;
+    left: 12%;
+    top: 20%;
+}
+
+.text{
+    position: absolute;
+    top: 48%;  
+    left: 20%;
+}
+
+.box1{
+    position: absolute;
+    text-align: center;
+    right: 12%;
+    top: 20%;
+}
+
+.text1{
+    position: absolute;
+    top: 48%;  
+    right: 15%;
+
+}
+
+.box2{
+    position: absolute;
+    text-align: center;
+    left: 12%;
+    top: 55%;
+}
+
+.text2{
+    position: absolute;
+    top: 83%; 
+    left: 20%;
+}
+
+.box3{
+    position: absolute;
+    text-align: center;
+    right: 12%;
+    top: 55%;
+}
+
+.text3{
+    position: absolute;
+    top: 83%; 
+    right: 22%;
+}
+
+.box4{
+    position: absolute;
+    text-align: center;
+    left: 12%;
+    top: 90%;
+}
+
+.text4{
+    position: absolute;
+    top: 118%; 
+    left: 20%;
+}
+
+.box5{
+    position: absolute;
+    text-align: center;
+    right: 12%;
+    top: 90%;
+}
+
+.text5{
+    position: absolute;
+    top: 118%; 
+    right: 19%;
+}

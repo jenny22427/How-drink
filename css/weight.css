@@ -1,0 +1,158 @@
+.return{
+    position: absolute;
+    left: 5.57%;
+    right: 91.31%;
+    top: 3.59%;
+    bottom: 92.31%;
+}
+
+.text{
+    position: absolute;
+    width: 346px;
+    height: 43px;
+    left: 339px;
+    top: 56px;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 54px;
+    text-align: center;
+    letter-spacing: 0.465em;
+    color: #60794D;
+}
+
+input{
+    position: absolute;
+    color: white;
+    width: 562px;
+    height: 91px;
+    left: 231px;
+    top: 1104px;
+    border: 0;
+    background: #A0CA77;
+    border-radius: 43px;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: 0.65em
+}
+
+.navFixed {
+    z-index: 10;          
+    position: fixed;      
+    top: 0;
+    left: 0;
+    margin-top: 0;
+    min-width: 100%;
+    opacity: 0.94;
+    transition: opacity .5s ease-out;   
+  }
+
+  
+.my-picker {
+    background: #EFEFF4;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+/* 最大盒子 */
+.box {
+    list-style: none;
+    width: 400px;
+    height: 300px;
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+}
+
+.box2 {
+    list-style: none;
+    width: 400px;
+    height: 300px;
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+}
+
+.box li {
+    margin-left: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-weight: bold;
+    font-size: 36pt;
+    line-height: 120pt;
+    color: rgb(96, 121, 77);
+    scroll-snap-align: start;
+  }
+
+.box2 li {
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-weight: bold;
+    font-size: 36pt;
+    line-height: 120pt;
+    color: rgb(96, 121, 77);
+    scroll-snap-align: start;
+}
+
+.box li:last-child {
+    margin-bottom: 120px;
+}
+/* 整體居中 */
+.div {
+    width: 400px;
+    height: 500px;
+    position: relative;
+    /* background: linear-gradient(to bottom, rgba(117, 107, 128, 0.3) 0%, rgba(117, 107, 128, 0) 25%, rgba(117, 107, 128, 0) 75%, rgba(117, 107, 128, .3) 100%); */
+    /* box-shadow: inset 0px 0px 12px rgba(231, 8, 8, 0.2); */
+    border-radius: 12px;
+}
+
+.div2{
+    width: 400px;
+    height: 500px;
+    position: relative;
+    /* background: linear-gradient(to bottom, rgba(117, 107, 128, 0.3) 0%, rgba(117, 107, 128, 0) 25%, rgba(117, 107, 128, 0) 75%, rgba(117, 107, 128, .3) 100%); */
+    /* box-shadow: inset 0px 0px 12px rgba(231, 8, 8, 0.2); */
+    border-radius: 12px;
+    
+}
+
+/* 選擇框 */
+.div::after {
+    content: '';
+    position: absolute;
+    margin-left: 170px;
+    margin-top: 0px;
+    top: 100px;
+    width: 500px;
+    height: 100px;
+    background: rgba(160,202,119,0.3);
+    pointer-events: none;
+    border-bottom: 0px solid rgba(0, 0, 0, .12);
+    border-radius: 50px;
+}
+
+.div1,.div2{
+    margin-right: 50px;
+
+}
+::-webkit-scrollbar {
+    display: none;
+}

@@ -1,0 +1,164 @@
+.login{
+    display: block;
+    margin-left: 47.3%;
+    margin-top: 7.2%;
+    width: 310px; 
+    height: 310px;
+  }
+  .login img{
+    position: absolute;
+    width: 155px;
+    height: 155px;
+    left: 434px;
+    top: 176px;  
+  }
+  .form {
+    position: relative;
+    width: 1024px;
+    height: 1366px;
+    background: #FFFFFF;
+    }
+  h2{
+    position: absolute;
+    width: 425px;
+    height: 41px;
+    left: 299px;
+    top: 364px;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 54px;
+    text-align: center;
+    letter-spacing: 0.465em;
+    color: #A0CA77;
+    font-weight:bold;
+    }
+  .loginGroup{
+    display: block;
+    padding-top: 240px;
+    padding-left: 230px;
+    }
+  .email img{
+    position: absolute;
+    width: 26.39px;
+    height: 19.79px;
+    left: 248.08px;
+    top: 585px;
+  }
+  .password img{
+    position: absolute;
+    width: 26.39px;
+    height: 28.04px;
+    left: 248.08px;
+    top: 715px;
+  }
+  .loginGroup1{
+    display: block;
+    padding-top: 50px;
+    padding-left: 230px;
+    }
+  label {
+    color: #fff;
+    line-height: 0;
+    /* 上下間距 */
+    font-weight: 100;
+    }
+  input {
+    outline: none;
+    width: 455px;
+    height: 80px;
+    padding: 0px 60px;
+    border: 3px solid rgba(118, 119, 83, 1);
+    border-radius: 60px;
+    font-size: 30px;
+    }
+  .btnGroup {
+    padding-top: 20%;
+    display: flex;
+    padding-left: 270px;
+    justify-content: space-between;
+    /* margin:0 auto; */
+    }
+  a{
+    position: absolute;
+    width: 89px;
+    height: 23px;
+    left: 680px;
+    top: 785.05px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #767753;
+    }
+  input[type="button"]{
+    position: absolute;
+    width: 562px;
+    height: 91px;
+    left: 231px;
+    top: 890.05px;
+    color: #fff;
+    border: 0px;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 100%;
+    text-align: center;
+    background-color: rgba(160, 202, 119, 1);
+    border-radius: 100px;
+    }
+  
+  .hr {
+    height: 1px;
+    width: 220px;
+    margin: 130px 0px 0px 220px ;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  }
+  .hr:after {
+      content: "以下列方式註冊/登入";
+      display: inline-block;
+      position: relative;
+      font-family: Roboto;
+      font-weight: normal;
+      font-style: normal;
+      background: white;
+      position: absolute;
+      font-size: 18px;
+      line-height: 21px;
+      text-align: center;
+      color: #767753;
+      width: 186px;
+      height: 23px;
+      left: 418px;
+      top: 1098.05px;
+  }
+  .hr2 {
+    height: 1px;
+    width: 280px;
+    margin: -10px 0px 0px 500px ;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  }
+  .google img{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 361.66px;
+    top: 1164px;
+  }
+  .fb img{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 484.66px;
+    top: 1162px;
+  }
+  .apple img{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 600.66px;
+    top: 1150px;
+  }

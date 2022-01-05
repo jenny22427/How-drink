@@ -1,0 +1,26 @@
+.box{
+    position: absolute;
+   top: -0.7%;
+    left:0.1%;
+}
+
+.box1{
+    position: absolute;
+    left: 300px;
+    top: 50px;
+}
+
+.box2{
+    position: absolute;
+    left: 60px;
+    top: 200px;
+}
+
+.return{
+    position: absolute;
+    left: 5.57%;
+    right: 91.31%;
+    top: 3.59%;
+    bottom: 92.31%;
+}
+

@@ -1,0 +1,46 @@
+body{
+    background-color: #BEE0B9;
+}
+
+
+.logo{
+    position: absolute;
+    left: 35%;
+    top: 5%;
+}
+
+.box{
+    position: absolute;
+    left: 20%;
+    top: 10%;
+}
+
+.box1{
+    position: absolute;
+    left: 5%;
+    top: 55%;
+}
+
+.box2{
+    position: absolute;
+    left: 53%;
+    top: 35.5%;
+}
+
+.box3{
+    position: absolute;
+    left: 5%;
+    top: 77.5%;
+}
+
+.box4{
+    position: absolute;
+    left: 55.5%;
+    top: 62.5%;
+}
+
+.box5{
+    position: absolute;
+    left: 5%;
+    top: 3.7%;
+}

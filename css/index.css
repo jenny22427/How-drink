@@ -1,0 +1,92 @@
+body{
+    background-color:#BEE0B9;
+}
+
+.logo{
+    position: absolute;
+    text-align: center;
+    left: 45%;
+    bottom: 50%;    
+}
+
+.text{
+  position: absolute;
+  top: 53%;  
+  left: 65%;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.4em;
+  color: #FFFFFF;
+}
+
+.logo1{
+  position: absolute;
+  top:53%;
+  left:25%;
+}
+
+
+.text1{
+    position: absolute;
+    top: 59%;  
+    left: 30%;
+    right: 25%; 
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    color: #FFFFFF;
+}
+
+.box{
+  position:relative;
+  top:820px;
+  left:130px;
+  width: 200px;
+  height: 3px;
+  background-color:#FFFFFF;
+}
+
+.box1{
+  position:relative;
+  top:820px;
+  left:710px;
+  width: 200px;
+  height: 3px;
+  background-color:#FFFFFF;
+}
+
+/* @media (min-width: 600px) {
+    .logo{
+      width: 0%;
+      height: 500%;
+      right: 25%;
+      left: 25%;
+      bottom: 30%;
+    }
+
+    .text{
+        width: 30%;
+        height:40%;
+    }
+  }
+
+ @media (min-width: 200px) {
+    .logo{
+      width: 60%;
+      height:30%;
+      left: 15%;
+      bottom: 50%;
+    }
+    .text{
+        width: 60%;
+        height:40%;
+    }
+  } */

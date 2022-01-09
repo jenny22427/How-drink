@@ -4,6 +4,7 @@
     right: 91.31%;
     top: 3.59%;
     bottom: 92.31%;
+    -webkit-tap-highlight-color:transparent;
 }
 
 .book{
@@ -16,8 +17,8 @@
 .collect{
     position: absolute;
     text-align: center;
-    left: 25%;
-    top: 10%;
+    left: 32%;
+    top: 11%;
 }
 
 .box{
@@ -25,12 +26,14 @@
     text-align: center;
     left: 12%;
     top: 20%;
+    -webkit-tap-highlight-color:transparent;
 }
 
 .text{
     position: absolute;
     top: 48%;  
     left: 20%;
+    -webkit-tap-highlight-color:transparent;
 }
 
 .box1{

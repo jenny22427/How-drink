@@ -6,14 +6,14 @@
 
 .box1{
     position: absolute;
-    left: 300px;
-    top: 50px;
+    left: 650px;
+    top: 90px;
 }
 
 .box2{
     position: absolute;
     left: 60px;
-    top: 200px;
+    top: 250px;
 }
 
 .return{
@@ -22,5 +22,6 @@
     right: 91.31%;
     top: 3.59%;
     bottom: 92.31%;
+    -webkit-tap-highlight-color:transparent;
 }
 

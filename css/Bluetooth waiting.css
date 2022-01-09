@@ -1,81 +1,86 @@
- body{
-    background-color: #BEE0B9;
-} 
+body{
+  background-color: #BEE0B9;
+  margin: 0px;
+}
 
 
 .logo{
-    position: absolute;
-    left: 35%;
-    top: 5%;
+  position: absolute;
+  left: 35%;
+  top: 5%;
 }
 
 .box{
-    position: absolute;
-    left: 20%;
-    top: 10%;
+  position: absolute;
+  left: 16%;
+  top: 10%;
 }
 
 .box1{
-    position: absolute;
-    left: 5%;
-    top: 55%;
+  position: absolute;
+  left: 5%;
+  top: 55.5%;
 }
 
 .box2{
-    position: absolute;
-    left: 53%;
-    top: 35.5%;
+  position: absolute;
+  left: 50%;
+  top: 22%;
 }
 
 .box3{
-    position: absolute;
-    left: 5%;
-    top: 77.5%;
+  position: absolute;
+  left: 5%;
+  top: 77.5%;
 }
 
 .box4{
-    position: absolute;
-    left: 54%;
-    top: 62.5%;
+  position: absolute;
+  left: 56%;
+  top: 61.8%;
 }
 
 .box5{
-    position: absolute;
-    left: 5%;
-    top: 3.7%;
+  position: absolute;
+  left: 5%;
+  top: 3.7%;
 }
 
+
+
 .box6{
-    position: absolute;
-    width: 1024px;
-    height: 1366px;
-    top: 0px;
-    left:0px;
-    backdrop-filter: blur(8px) brightness(50%);
-    background-color: rgba(0, 0, 0, .1);
+  position: absolute;
+  top: 0px;
+  width: 2100px;
+  height: 2800px;
+  backdrop-filter: blur(8px) brightness(50%);
+  background-color: rgba(0, 0, 0, .1);
 }
 
 input {
-    outline: none;
-    width: 1024px;
-    height: 1366px;
-    backdrop-filter: blur(8px) brightness(50%);
-    background-color: rgba(0, 0, 0, .1);
+  outline: none;
+  width: 2100px;
+  height: 2800px;
+  backdrop-filter: blur(8px) brightness(50%);
+  background-color: rgba(0, 0, 0, .1);
 }
 
 .box7{
-    position: absolute;
-    left: 17.5%;
-    top: 42%;
+  position: absolute;
+  left: 17.5%;
+  top: 42%;
 }
 
+
+
 .loader {
-    font-size: 10px;
+    font-size: 15px;
     margin: 50px auto;
-    top: 690px;
+    left:70px;
+    top: 1550px;
     text-indent: -9999em;
-    width: 11em;
-    height: 11em;
+    width: 13em;
+    height: 13em;
     border-radius: 50%;
     background: #bee6f6;
     background: -moz-linear-gradient(left, #bee6f6 10%, rgba(190,230,246, 0) 42%);

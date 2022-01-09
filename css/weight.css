@@ -4,14 +4,15 @@
     right: 91.31%;
     top: 3.59%;
     bottom: 92.31%;
+    -webkit-tap-highlight-color:transparent;
 }
 
 .text{
     position: absolute;
     width: 346px;
     height: 43px;
-    left: 339px;
-    top: 56px;
+    left: 900px;
+    top: 100px;
     font-family: Noto Sans;
     font-style: normal;
     font-weight: normal;
@@ -25,20 +26,19 @@
 input{
     position: absolute;
     color: white;
-    width: 562px;
-    height: 91px;
-    left: 231px;
-    top: 1104px;
+    width: 700px;
+    height: 200px;
+    left: 630px;
+    top: 2300px;
     border: 0;
     background: #A0CA77;
-    border-radius: 43px;
+    border-radius: 100px;
     font-family: Heebo;
     font-style: normal;
     font-weight: normal;
-    font-size: 40px;
-    line-height: 100%;
-    text-align: center;
-    letter-spacing: 0.65em
+    font-size: 80px;
+    /* text-align: center; */
+    letter-spacing: 0.5em
 }
 
 .navFixed {
@@ -71,7 +71,7 @@ body {
 /* 最大盒子 */
 .box {
     list-style: none;
-    width: 400px;
+    width: 600px;
     height: 300px;
     overflow: auto;
     scroll-snap-type: y mandatory;
@@ -79,44 +79,45 @@ body {
 
 .box2 {
     list-style: none;
-    width: 400px;
-    height: 300px;
+    width: 600px;
+    height: 400px;
     overflow: auto;
     scroll-snap-type: y mandatory;
 }
 
 .box li {
     margin-left: 200px;
-    height: 100px;
+    height: 300px;
     display: flex;
     justify-content: center; 
     align-items: center;
     font-weight: bold;
-    font-size: 36pt;
-    line-height: 120pt;
+    font-size: 80pt;
+    line-height: 1300px;
     color: rgb(96, 121, 77);
     scroll-snap-align: start;
   }
 
 .box2 li {
-    width: 300px;
-    height: 100px;
+    margin-left: 100px;
+    width: 200px;
+    height: 300px;
     display: flex;
     justify-content: center; 
     align-items: center;
     font-weight: bold;
-    font-size: 36pt;
-    line-height: 120pt;
-    color: rgb(96, 121, 77);
+    font-size: 80pt;
+    line-height: 1300pt;
+    color: rgb(110, 138, 89);
     scroll-snap-align: start;
 }
 
 .box li:last-child {
-    margin-bottom: 120px;
+    margin-bottom: 200px;
 }
 /* 整體居中 */
 .div {
-    width: 400px;
+    width: 600px;
     height: 500px;
     position: relative;
     /* background: linear-gradient(to bottom, rgba(117, 107, 128, 0.3) 0%, rgba(117, 107, 128, 0) 25%, rgba(117, 107, 128, 0) 75%, rgba(117, 107, 128, .3) 100%); */
@@ -125,7 +126,7 @@ body {
 }
 
 .div2{
-    width: 400px;
+    width: 600px;
     height: 500px;
     position: relative;
     /* background: linear-gradient(to bottom, rgba(117, 107, 128, 0.3) 0%, rgba(117, 107, 128, 0) 25%, rgba(117, 107, 128, 0) 75%, rgba(117, 107, 128, .3) 100%); */
@@ -138,15 +139,15 @@ body {
 .div::after {
     content: '';
     position: absolute;
-    margin-left: 170px;
+    margin-left: 200px;
     margin-top: 0px;
-    top: 100px;
-    width: 500px;
-    height: 100px;
+    top: 50px;
+    width: 800px;
+    height: 200px;
     background: rgba(160,202,119,0.3);
     pointer-events: none;
     border-bottom: 0px solid rgba(0, 0, 0, .12);
-    border-radius: 50px;
+    border-radius: 100px;
 }
 
 .div1,.div2{

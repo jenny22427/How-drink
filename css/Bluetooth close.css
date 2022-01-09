@@ -1,67 +1,62 @@
 body{
     background-color: #BEE0B9;
-} 
-
-
-.logo{
+    margin: 0px;
+  }
+  
+  
+  .logo{
     position: absolute;
     left: 35%;
     top: 5%;
-}
-
-.box{
+  }
+  
+  .box{
     position: absolute;
-    left: 20%;
+    left: 16%;
     top: 10%;
-}
-
-.box1{
+  }
+  
+  .box1{
     position: absolute;
     left: 5%;
-    top: 55%;
-}
-
-.box2{
+    top: 55.5%;
+  }
+  
+  .box2{
     position: absolute;
-    left: 53%;
-    top: 35.5%;
-}
-
-.box3{
+    left: 50%;
+    top: 22%;
+  }
+  
+  .box3{
     position: absolute;
     left: 5%;
     top: 77.5%;
-}
-
-.box4{
+  }
+  
+  .box4{
     position: absolute;
-    left: 55.5%;
-    top: 62.5%;
-}
-
-.box5{
+    left: 56%;
+    top: 61.8%;
+  }
+  
+  .box5{
     position: absolute;
     left: 5%;
     top: 3.7%;
-}
-
-.box6{
+  }
+  
+  
+  
+  .box6{
     position: absolute;
-    width: 1024px;
-    height: 1366px;
     top: 0px;
-    left:0px;
+    width: 2100px;
+    height: 2800px;
     backdrop-filter: blur(8px) brightness(50%);
     background-color: rgba(0, 0, 0, .1);
-}
+  }
 
-input[type="button"] {
-    outline: none;
-    width: 1024px;
-    height: 1366px;
-    backdrop-filter: blur(8px) brightness(50%);
-    background-color: rgba(0, 0, 0, .1);
-}
 
 .box7{
     position: absolute;
@@ -71,36 +66,38 @@ input[type="button"] {
 
 input[type="no"] {
     position: absolute;
-    width: 220px;
-    height: 50px;
-    left: 250px;
-    top: 785px;
+    width: 400px;
+    height: 100px;
+    left: 600px;
+    top: 1650px;
     color: rgb(113, 85, 76);
     border:0px;
     font-family: Heebo;
     font-style: normal;
     font-weight: normal;
-    font-size: 30px;
+    font-size: 50px;
     line-height: 100%;
     text-align: center;
-    border-radius: 15px;
+    border-radius: 40px;
     background-color: rgb(255, 211, 195);
+    outline:none;
     }
 
     input[type="yes"] {
         position: absolute;
-        width: 220px;
-        height: 50px;
-        left: 505px;
-        top: 785px;
+        width: 400px;
+        height: 100px;
+        left: 1200px;
+        top: 1650px;
         color: rgb(255, 255, 255);
         border:0px;
         font-family: Heebo;
         font-style: normal;
         font-weight: normal;
-        font-size: 30px;
+        font-size: 50px;
         line-height: 100%;
         text-align: center;
-        border-radius: 15px;
+        border-radius: 40px;
         background-color: #BEE6F6;
+        outline:none;
         }

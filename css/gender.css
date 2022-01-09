@@ -1,12 +1,12 @@
 .body{
-    width: 1024px;
-    height: 1366px;
+    width: 2048px;
+    height: 2732px;
 }
 
 .text{
     position: absolute;
-    left: 300px;
-    top: 56px;
+    left: 600px;
+    top: 90px;
 }
 
 .return{
@@ -21,8 +21,9 @@
     position: absolute;
     width: 324px;
     height: 324px;
-    left: 355px;
-    top: 316px;
+    left: 700px;
+    top: 600px;
+    -webkit-tap-highlight-color:transparent;
 }
 
 
@@ -31,6 +32,7 @@
     position: absolute;
     width: 324px;
     height: 324px;
-    left: 357px;
-    top: 726px;
+    left: 660px;
+    top: 1600px;
+    -webkit-tap-highlight-color:transparent;
 }

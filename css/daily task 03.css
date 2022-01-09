@@ -8,4 +8,5 @@ body{
     right: 91.31%;
     top: 4.2%;
     bottom: 92.31%;
+    -webkit-tap-highlight-color:transparent;
 }

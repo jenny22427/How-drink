@@ -1,70 +1,72 @@
 body{
     background-color: #BEE0B9;
-} 
-
-
-.logo{
+    margin: 0px;
+  }
+  
+  
+  .logo{
     position: absolute;
     left: 35%;
     top: 5%;
-}
-
-.box{
+  }
+  
+  .box{
     position: absolute;
-    left: 20%;
+    left: 16%;
     top: 10%;
-}
-
-.box1{
+  }
+  
+  .box1{
     position: absolute;
     left: 5%;
-    top: 55%;
-}
-
-.box2{
+    top: 55.5%;
+  }
+  
+  .box2{
     position: absolute;
-    left: 53%;
-    top: 35.5%;
-}
-
-.box3{
+    left: 50%;
+    top: 22%;
+  }
+  
+  .box3{
     position: absolute;
     left: 5%;
     top: 77.5%;
-}
-
-.box4{
+  }
+  
+  .box4{
     position: absolute;
-    left: 55.5%;
-    top: 62.5%;
-}
-
-.box5{
+    left: 56%;
+    top: 61.8%;
+  }
+  
+  .box5{
     position: absolute;
     left: 5%;
     top: 3.7%;
-}
-
-.box6{
+  }
+  
+  
+  
+  .box6{
     position: absolute;
-    width: 1024px;
-    height: 1366px;
     top: 0px;
-    left:0px;
+    width: 2100px;
+    height: 2800px;
     backdrop-filter: blur(8px) brightness(50%);
     background-color: rgba(0, 0, 0, .1);
-}
-
-input {
+  }
+  
+  input {
     outline: none;
-    width: 1024px;
-    height: 1366px;
+    width: 2100px;
+    height: 2800px;
     backdrop-filter: blur(8px) brightness(50%);
     background-color: rgba(0, 0, 0, .1);
-}
-
-.box7{
+  }
+  
+  .box7{
     position: absolute;
     left: 17.5%;
     top: 42%;
-}
+  }

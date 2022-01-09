@@ -19,28 +19,33 @@ body{
     position: absolute;
     left: 5%;
     top: 55%;
+    -webkit-tap-highlight-color:transparent;
 }
 
 .box2{
     position: absolute;
-    left: 53%;
-    top: 35.5%;
+    left: 50%;
+    top: 22%;
+    -webkit-tap-highlight-color:transparent;
 }
 
 .box3{
     position: absolute;
     left: 5%;
     top: 77.5%;
+    -webkit-tap-highlight-color:transparent;
 }
 
 .box4{
     position: absolute;
-    left: 55.5%;
-    top: 62.5%;
+    left: 56%;
+    top: 61.8%;
+    -webkit-tap-highlight-color:transparent;
 }
 
 .box5{
     position: absolute;
     left: 5%;
     top: 3.7%;
+    -webkit-tap-highlight-color:transparent;
 }

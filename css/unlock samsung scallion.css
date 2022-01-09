@@ -19,6 +19,7 @@
     right: 91.31%;
     top: 4.2%;
     bottom: 92.31%;
+    -webkit-tap-highlight-color:transparent;
 }
 
 .box1{
@@ -26,18 +27,18 @@
     animation-iteration-count: 1; 
     animation-fill-mode: forwards;
     position: absolute;
-    left: 160px;
-    top: 250px;
+    left: 350px;
+    top: 400px;
 }
 
 .box2{
     position: absolute;
-    left: 260px;
+    left: 600px;
     top: 8px;
 }
 
 .box3{
     position: absolute;
-    left: 180px;
-    top: 130px;
+    left: 330px;
+    top: 200px;
 }

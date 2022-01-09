@@ -1,0 +1,31 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.return{
+    position: absolute;
+    left: 5.57%;
+    right: 91.31%;
+    top: 3.59%;
+    bottom: 92.31%;
+    -webkit-tap-highlight-color:transparent;
+}
+
+.box{
+    position: absolute;
+}
+
+.box1{
+    position: absolute;
+    left: 85%;
+    top: 4.5%;
+
+}
+
+.box2{
+    position: absolute;
+    margin: 0px;
+    top: 60.5%;
+    -webkit-tap-highlight-color:transparent;
+}
